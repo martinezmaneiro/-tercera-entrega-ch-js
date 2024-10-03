@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarta Entrega JS Coderhouse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Duck Hunt</h1>
+
+    <p>Disparale al pato. Si fallas, pierdes puntos. Toca el pato para iniciar. ¡Buena suerte soldado!</p>
+
+    <div id="game-area">
+        <img id="duck"
+            src="duck.png"
+            alt="Pato" />
+    </div>
+
+    <div id="score-board">
+        <p>Puntaje: <span id="player-score">0</span></p>
+        <p>Mejor puntaje: <span id="best-score">0</span></p>
+        <p>Tiempo restante: <span id="time-remaining">15</span> segundos</p>
+    </div>
+
+    <button id="reset-game">Reiniciar</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
